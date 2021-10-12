@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "asset": "PEPESTREAM",
+  "asset_issuer_address": "14sxc2ZaGcPC51hfYksSVmQm9YUt5HVkiK",
+  "asset_owner_address": "14sxc2ZaGcPC51hfYksSVmQm9YUt5HVkiK",
+  "asset_supply": "100",
+  "asset_divisible": false,
+  "asset_locked": true,
+  "image": "https://fakeasf.club/assets/PEPESTREAM/PEPESTREAM-48x48.png",
+  "image_large": "https://fakeasf.club/assets/PEPESTREAM/PEPESTREAM.png",
+  "image_title": "PEPESTREAM",
+  "description": "<iframe style=\"border-radius: 5px; border:0; background-color: black;\" width=\"400\" height=\"560\"\r\n    src=\"https://preview.p5js.org/burstmembrane/embed/DupOPWMAq\"></iframe>"
+}
