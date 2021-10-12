@@ -8,7 +8,7 @@
   "asset_locked": true,
   "image": "https://i.imgur.com/4FrHwJC.png",
   "image_large": "https://i.imgur.com/rBx6m9n.gif",
-  "description": "<img id=\"enhanced-image\" src=\"https://i.imgur.com/rBx6m9n.gif\"> <script>  document.querySelector(\"#additionalInfo\").hidden = true; document.querySelector(\"#additionalCustomInfoValues\").hidden = true; </script>",
+  "description": "<script>  \r\ndocument.querySelector('#additionalCustomInfoValues').hidden = true;\r\n\r\n</script> <img src=\"https://i.imgur.com/rBx6m9n.gif\">",
   "name": "LATENTPEPE",
   "website": "https://i.imgur.com/rBx6m9n.gif",
   "image_title": "LATENTPEPE"
