@@ -9,6 +9,6 @@
   "image": "https://fakeasf.club/assets/PEPEMAZE/PEPEMAZE-48x48.png",
   "image_large": "https://fakeasf.club/assets/PEPEMAZE/PEPEMAZE.gif",
   "website": "https://fakeasf.club/assets/PEPEMAZE/sketch/index.html",
-  "description": "<iframe style=\"border-radius: 5px; border:0; background-color: black;\" width=\"400\" height=\"560\"\r\n    src=\"https://fakeasf.club/assets/PEPEMAZE/sketch/index.html\"></iframe> <img src=\"huahu\" onerror=\"document.querySelectorAll('#digitalArtInfo, #additionalCustomInfo ').forEach((elt)=>elt.setAttribute('hidden',true));this.hidden=true\">",
+  "description": "<iframe style=\"border-radius: 5px; border:0; background-color: black;\" width=\"400\" height=\"560\" src=\"https://fakeasf.club/assets/PEPEMAZE/sketch/index.html\"></iframe> \r\n\r\n<img src=\"huahu\" onerror=\"document.querySelectorAll('#digitalArtInfo, #additionalCustomInfo ').forEach((elt)=>elt.setAttribute('hidden',true));this.hidden=true\">",
   "name": "PEPEMAZE"
 }
