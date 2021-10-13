@@ -78,8 +78,11 @@ function preload() {
 let relativeX, relativeY;
 
 document.addEventListener("mousemove", (event) => {
-  relativeX = event.clientX - width / 2;
-  relativeY = event.clientY - height / 2;
+  let centreX = width / 2;
+  let centreY = height / 2;
+
+  relativeX = mouseX;
+  relativeY = mouseY;
 });
 
 function setup() {
@@ -108,6 +111,7 @@ function draw() {
     for (let pepe in pepes) {
       pepes[pepe].draw();
     }
+    window.pepes = pepes;
   }
   // drawFrameRate();
 }
