@@ -3,7 +3,7 @@ const numPepes = 100;
 
 let width = 400;
 let height = 560;
-
+let p;
 p5.disableFriendlyErrors = true; // disables FES
 
 class PepeIcon {
@@ -57,7 +57,7 @@ function drawFrameRate() {
 let bg;
 let icon;
 let canvas;
-let isIframe = false;
+
 function preload() {
   icon = loadImage("PEPEFACE.png");
 
@@ -68,7 +68,6 @@ function preload() {
   }
   if (window.top != window.self) {
     console.log("in iframe!");
-    isIframe = true;
     document.querySelector("body").classList.add("in-iframe");
     // In a Frame or IFrame
   } else {
@@ -79,16 +78,11 @@ function preload() {
 let relativeX, relativeY;
 
 document.addEventListener("mousemove", (event) => {
-  // if its in an iframe,
   let centreX = width / 2;
   let centreY = height / 2;
-  if (isIframe) {
-    relativeX = mouseX - centreX;
-    relativeY = mouseY - centreY;
-  } else {
-    relativeX = mouseX;
-    relativeY = mouseY;
-  }
+
+  relativeX = mouseX;
+  relativeY = mouseY;
 });
 
 function setup() {
@@ -109,7 +103,7 @@ function draw() {
   if (frameCount % 10 == 0) {
     push();
 
-    background(78, 126, 4, 18);
+    background(78, 126, 4, 15);
     pop();
   }
 
