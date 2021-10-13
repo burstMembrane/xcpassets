@@ -7,7 +7,7 @@
   "asset_divisible": false,
   "asset_locked": false,
   "image": "https://coindaddy.io/content/images/icons/xcp/PEPEBULGE.png",
-  "description": "<img id=\"description-img\" src=\"https://fakeasf.club/assets/PEPEBULGE/PEPEBULGE.png\" alt=\"\">\r\n\r\n\r\n<img src=\"huahu\" onerror=\"document.querySelectorAll('#digitalArtInfo, #additionalCustomInfo ').forEach((elt)=>elt.setAttribute('hidden',true));this.hidden=true\">",
+  "description": "<img id=\"description-img\" src=\"https://fakeasf.club/assets/PEPEBULGE/PEPEBULGE.png\" alt=\"\">\r\n\r\n\r\n<img src=\"huahu\" onerror=\"this.onerror = null;document.querySelectorAll('#digitalArtInfo, #additionalCustomInfo ').forEach((elt)=>elt.setAttribute('hidden',true));this.hidden=true\">",
   "website": "https://fakeasf.club/assets/PEPEBULGE/PEPEBULGE.png",
   "pgpsig": "",
   "category": "Entertainment",
